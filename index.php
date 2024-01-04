@@ -118,7 +118,9 @@ if (!isset($_SESSION["user"])) {
        
       </div>
       <div class="text-center">
-        <a href="new.html"><img src="new.png" alt="" width="250px" class="img2 p-3" ></a>
+        <a href="new.html"><img src="new.png" alt="" width="250px" class="img2 p-5" ></a>
+        <a href="shoes.html"><img src="shoes.png" alt="" width="250px" class="img2 p-5" ></a>
+
       </div>
 
   </section>
