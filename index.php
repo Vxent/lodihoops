@@ -38,14 +38,16 @@ if (!isset($_SESSION["user"])) {
               <div class="container-fluid">
             
                   <img src="LH.png" alt="" width='170px' class='lh'>
-                  <img src="sneak1.png" alt="" width='60px' class=''>
-                  <img src="sneak3.png" alt="" width='80px' class=''>
-                  <img src="sneak2.png" alt="" width='60px' class=''>
-                  <img src="sneak4.png" alt="" width='80px' class=''>
-                  <img src="sneak5.png" alt="" width='80px' class=''>
-
                   
-                
+                 
+                 
+                 <!-- <img src="nikee.png" alt="" width='' class='img2 p-5'> -->
+                  <!-- <img src="sneak2.png" alt="" width='60px' class='img2'>
+                  <img src="sneak4.png" alt="" width='80px' class='img2'>
+                  <img src="sneak5.png" alt="" width='80px' class='img2'> -->
+                 
+                  
+              
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -56,7 +58,10 @@ if (!isset($_SESSION["user"])) {
                   </div>
                   
                   <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <ul1 class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active text-primary" href="#shop"><img src="shoes.png" width="20%" alt=""> Shop now</a>
+                      </li>
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#home">Home</a>
                       </li>
@@ -69,7 +74,8 @@ if (!isset($_SESSION["user"])) {
                       <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                       </li>
-                    </ul>
+                      
+                    </ul1>
                     <div><a href="logout.php"><input type="submit" value="LOG OUT" name="logout" class="btn-grad3 text-dark "></a>
                     </div>
           
@@ -82,11 +88,11 @@ if (!isset($_SESSION["user"])) {
  
       </section>
   <!-- HOME -->
-  <section id="home" class="p-5">
+  <section id="home" class="p-5" width="100%">
     <div class="p-5">
-      <div class="container text-center p-5">
+      <div class="container text-center p-5 ">
        
-          <h1 style="font-size: xxx-large; padding-bottom: 140px;">Sportswear that <br> will
+          <h1 class="Sportwear"><b>Sportswear that </b><br> will
              unleash your <br>inner beast
           </h1>
           <div class="text-center">
@@ -119,10 +125,32 @@ if (!isset($_SESSION["user"])) {
       </div>
       <div class="text-center">
         <a href="new.html"><img src="new.png" alt="" width="250px" class="img2 p-5" ></a>
-        <a href="shoes.html"><img src="shoes.png" alt="" width="250px" class="img2 p-5" ></a>
+       
 
       </div>
+   
 
+  </section>
+
+  <!-- shop -->
+  <section id="shop">
+    <div class="text-center pt-5">
+  
+    </div>
+    <div class="shop container">
+      <div class="row">
+        <div class="pt-5 col-5 text-center">
+          <h1 class='p-5'><b>SHOPPING GEAR </b></h1>
+          <h2>HERE THE SHOES THAT IMPROVE YOUR SKILLS <br></h2><br><br>
+          
+          <a href="shoes.html"><img src="cart.png" alt="" class="img2" width='50%'></a>
+        </div>
+        <div class="col-7">
+          <img src="shoes.png" alt="" width="100%">
+        </div>
+      </div>
+       
+    </div>
   </section>
 
   <!-- Tutorial Customization -->
@@ -130,7 +158,7 @@ if (!isset($_SESSION["user"])) {
   <section id="video">
     <div class="here text-center pt-5 ">
       <h1><b>HERE  HOW WE CUSTOMIZE OUR JERSEY DESIGN</b></h1>
-    </div>
+    </div> <hr>
         <div class="text-center p-5">
           
           <img src="bg-sport9.gif" alt="" width="100%" height="100%">
@@ -144,23 +172,29 @@ if (!isset($_SESSION["user"])) {
   </section>
   
   <!-- ABOUT US -->
-  <section id="about" class="bg-light">
+  <section id="about" class="bg-dark">
     <div class="text-center p-5">
       <h1>About us</h1>
     </div>
     <div class="container">
-      <div class="row">
+      <div class="row"> 
+        <div class=" col-6 p-5">
+           <img src="login-side.png" alt="">
+           <p style="color: white;">Our Website is very helpful To Ours Sports Players. To Give Them 
+           a Idea for their Jersey Design and make Cool and competitive players
+
+           </p>
+
+        </div>
         <div class="col-6 p-5">
-          <p class="text-dark" style="font-size: x-large">IS A CLOTHING SPORTS DESIGNER COMPANY 
+          <img src="LH.png" alt="" srcset="" width="30%">
+          <p class="" style="color: white;">IS A CLOTHING SPORTS DESIGNER COMPANY 
           THAT <br>WAS ORIGINALLYFOUNDED & ENTABLISHED IN<br> PAMPANGA, PHIILIPPINES IN 2023.WE ARE CREATING A JERSEY LAYOUT DESIGN THAT CAN 
-          HELP TO CHOOSE YOUR SPORTSWEAR AND ITS FREE TO DOWNLOAD<br></p>
+          HELP TO CHOOSE YOUR SPORTSWEAR AND ITS  <a href="#sports"><i class="fab fa-download"><button style="background: black;color: white;">FREE TO DOWNLOAD</button></i></a><br></p>
           <img src="allsport.png" alt="" width="60%" class="pt-5">
           <!-- <img src="nayk.png" alt="" width="10%" height="40%"> -->
         </div>
-        <div class=" col-6">
-          <img src="login-side.png" alt="" width="100%" height="100%">
-
-        </div>
+      
 
       </div>
       
@@ -180,19 +214,48 @@ if (!isset($_SESSION["user"])) {
        <div class="row">
         <div class="col-6">
           <img src="LH.png" alt="" width="40%">
+          <h6 class="text-light ">CLOTHING MANUFACTURER BASED IN <br>PHILIPPINES THAT OFFERS FULL SUBLIMATION <br> SPORTSWEAR AND COMPANY UNIFORMS.</h6>
+          
          
 
         </div>
-        <div>
+        <div class="col-6">
+          
+
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook">www.FbLodihoops.Com</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-github">www.GhLodihoops.Com</i>
+            </a>
+            </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-chrome">www.gglLodihoops.Com</i>
+            </a>
+    
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-youtube">www.YtLodihoops.Com</i>
+            </a> 
+          </li>
+        </ul>
+        
 
         </div>
         
 
-       </div>
-       <div class="col-6">
-        <h6 class="text-light ">CLOTHING MANUFACTURER BASED IN <br>PHILIPPINES THAT OFFERS FULL SUBLIMATION <br> SPORTSWEAR AND COMPANY UNIFORMS.</h6>
+      </div>
+      
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-        </div>
+
+      
         
 
       </footer>

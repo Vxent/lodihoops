@@ -1,9 +1,21 @@
 
-.body {
+body {
     max-width: 1500px;
     margin: 0 auto;
 
 }
+body {
+  animation: grow 0.5s;
+}
+
+@keyframes grow {
+    0% { transform: scale(.2); }
+  100% { transform: scale(1); }
+}
+
+/* Article styles, just for the demo, don't have anything to do with the transition */
+body { background-color: rgba(0,0,0,.1); }
+article { max-width: 42rem; padding: 1rem; margin: auto; font-size: 21px; line-height: 1.5; }
  
 
 .container{
@@ -163,15 +175,15 @@
 
 h1 {
   
-  background: -webkit-linear-gradient(#0fb7dd, #f1f1f1);
+  background: -webkit-linear-gradient(#2ac9ec, #34e824);
   
   -webkit-text-fill-color: transparent;
   
-    /* Prefix required. Even Firefox only supports the -webkit- prefix */
+     /* Prefix required. Even Firefox only supports the -webkit- prefix  */
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
- 
-}
+    -webkit-text-stroke-color: rgb(109, 103, 103);
+  }
+
 .reg {
    position: relative;
    top: -30px;
@@ -360,6 +372,22 @@ h1 {
  
   
  } 
+ #shop {
+   
+  background-image: url(white.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+ 
+  
+ } 
+ .shop {
+   
+  background-image: url(.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+ 
+  
+ }
  #video {
    
   background-image: url(bg-sport2.webp);
@@ -374,16 +402,19 @@ h1 {
 }
 #about {
    
-  background-image: url(bg-sport2.webp);
-  background-repeat:no-repeat;
-  background-size: cover;
+  background-image: url(bg-sport12.jpg);
+
+  
  
   
   
 
 }
 
-
+.shop-text {
+  position: relative;
+  top: 180px;
+}
 
          
 .btn-gear {
@@ -409,6 +440,64 @@ h1 {
   position: relative;
   padding-top: 120px;
 }
+.sportwear{
+  position: relative;
+ 
+}
 
+
+  .ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+ul li a {
+  position: relative; 
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 63px;
+  background: #333;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #666;
+  transition: .5s;
+}
+
+ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ffee10;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+ul li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+}
+
+ul li a:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+}
 
 
