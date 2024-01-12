@@ -92,7 +92,7 @@ if (!isset($_SESSION["user"])) {
     <div class="p-5">
       <div class="container text-center p-5 ">
        
-          <h1 class="Sportwear"><b>Sportswear that </b><br> will
+          <h1 class="Sportwear p-5"><b>Sportswear that </b><br> will
              unleash your <br>inner beast
           </h1>
           <div class="text-center">
