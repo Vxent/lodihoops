@@ -129,19 +129,19 @@ if (!isset($_SESSION["user"])) {
       <h1>SPORTS</h1>
     </div>
      <div class="cards text-center p-5 ">
-        <a href="mpl.html"><img src="esport.png" alt="" width="250px" class="img2 p-5"></a>
-        <a href="index.html"><img src="nike.png" alt="" width="250px" class="img2 p-5" ></a>
-       <a href="vball.html"><img src="vball.png" alt="" width="300px" class="img2 p-3" ></a>
+        <a href="mpl.html" target=_blank><img src="esport.png" alt="" width="250px" class="img2 p-5"></a>
+        <a href="index.html" target=_blank><img src="nike.png" alt="" width="250px" class="img2 p-5" ></a>
+       <a href="vball.html" target=_blank><img src="vball.png" alt="" width="300px" class="img2 p-3" ></a>
        
       </div>
       <div class="cards text-center ">
-        <a href="hoodie.html"><img src="longsleeve.png" alt="" width="250px" class="img2 p-5"></a>
-        <a href="cycling.html"><img src="cycling.png" alt="" width="250px" class="img2 p-5" ></a>
-       <a href="football.html"><img src="soccer.png" alt="" width="250px" class="img2 p-3" ></a>
+        <a href="hoodie.html" target=_blank><img src="longsleeve.png" alt="" width="250px" class="img2 p-5"></a>
+        <a href="cycling.html" target=_blank><img src="cycling.png" alt="" width="250px" class="img2 p-5" ></a>
+       <a href="football.html" target=_blank><img src="soccer.png" alt="" width="250px" class="img2 p-3" ></a>
        
       </div>
       <div class="text-center">
-        <a href="new.html"><img src="new.png" alt="" width="250px" class="img2 p-5" ></a>
+        <a href="new.html" target=_blank><img src="new.png" alt="" width="250px" class="img2 p-5" ></a>
        
 
       </div>
@@ -160,7 +160,7 @@ if (!isset($_SESSION["user"])) {
           <h1 class='p-5'><b>SHOPPING GEAR </b></h1>
           <h2>HERE THE SHOES THAT IMPROVE YOUR SKILLS <br></h2><br><br>
           
-          <a href="shoes.html"><img src="cart.png" alt="" class="img2" width='50%'></a>
+          <a href="shoes.html" target=_blank><img src="cart.png" alt="" class="img2" width='50%'></a>
         </div>
         <div class="col-7">
           <img src="shoes.png" alt="" width="100%">
