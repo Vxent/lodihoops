@@ -172,18 +172,18 @@ article { max-width: 42rem; padding: 1rem; margin: auto; font-size: 21px; line-h
 
   
 }
-
+/*
 h1 {
   
   background: -webkit-linear-gradient(#2ac9ec, #34e824);
   
   -webkit-text-fill-color: transparent;
   
-     /* Prefix required. Even Firefox only supports the -webkit- prefix  */
+      Prefix required. Even Firefox only supports the -webkit- prefix 
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(109, 103, 103);
   }
-
+ */
 .reg {
    position: relative;
    top: -30px;
@@ -206,7 +206,7 @@ h1 {
 .img2:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-h1 {
+  /*h1 {
     text-transform: uppercase;
     background-image: linear-gradient( -225deg, rgb(213, 234, 215) 0%, #dbe3ed 29%, #04212e 67%, #00ccff 100% );
     background-size: auto auto;
@@ -214,13 +214,13 @@ h1 {
     background-size: 200% auto;
     color: #fff;
     background-clip: text;
-    /* text-fill-color: transparent; */
+   text-fill-color: transparent; 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     display: inline-block;
     font-size: 50px;
-}
+}*/
 .text {
     font-size: large;
 }
@@ -356,7 +356,7 @@ h1 {
 }
 #home {
    
-  background-image: url(bg-sport10.gif);
+  background-image: url();
   background-repeat:no-repeat;
   background-size: cover;
  
@@ -501,3 +501,8 @@ ul li a:hover {
 }
 
 
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  
+  
+}
