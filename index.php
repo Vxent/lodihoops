@@ -18,7 +18,7 @@ if (!isset($_SESSION["user"])) {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="HL.png" type="image/x-icon">
- 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>LODI HOOPS</title>
 </head>
 <style>
@@ -30,6 +30,10 @@ if (!isset($_SESSION["user"])) {
   left: 60px;
   
   }
+  .search {
+    position: relative;
+    left: 450px;
+  }
 </style>
 <body>
       <section id="nav">
@@ -38,8 +42,12 @@ if (!isset($_SESSION["user"])) {
               <div class="container-fluid">
             
                   <img src="LH.png" alt="" width='170px' class='lh'>
-                  
-                 
+                  <div class="search">
+                    <form  action="#sports" method="get" class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                   </form>
+                 </div>
                  
                  <!-- <img src="nikee.png" alt="" width='' class='img2 p-5'> -->
                   <!-- <img src="sneak2.png" alt="" width='60px' class='img2'>
@@ -90,15 +98,24 @@ if (!isset($_SESSION["user"])) {
   <!-- HOME -->
   <section id="home" class="p-5" width="100%">
     <div class="p-5">
-      <div class="container text-center p-5 ">
-       
+      <div class="row ">
+        <div class="col-6-lg md-6-md col-sm-6">
           <h1 class="Sportwear p-5"><b>Sportswear that </b><br> will
-             unleash your <br>inner beast
+             unleash your <br>inner beast <br>
+             <a href="#sports"><input type="submit" value="SPORTS WEAR" name="logout" class="btn-grad3 text-dark "></a>
           </h1>
-          <div class="text-center">
+        </div>
+        <div class="col-6-lg md-6-md col-sm-6">
+          <img src="bg.sport10.gif" alt="" width="100%">
+        </div>
+       
+          <!-- <h1 class="Sportwear p-5"><b>Sportswear that </b><br> will
+             unleash your <br>inner beast
+          </h1> -->
+          <!-- <div class="text-center">
           <a href="#sports"><input type="submit" value="SPORTS WEAR" name="logout" class="btn-grad3 text-dark "></a>
-          </div>
-
+          </div> -->
+       
         
        
       </div>
