@@ -32,7 +32,7 @@ if (!isset($_SESSION["user"])) {
   }
   .search {
     position: relative;
-    left: 450px;
+   
   }
 </style>
 <body>
@@ -102,11 +102,11 @@ if (!isset($_SESSION["user"])) {
         <div class="col-6-lg md-6-md col-sm-6">
           <h1 class="Sportwear p-5"><b>Sportswear that </b><br> will
              unleash your <br>inner beast <br>
-             <a href="#sports"><input type="submit" value="SPORTS WEAR" name="logout" class="btn-grad3 text-dark "></a>
+             <a href="#sports"><input type="submit" value="SPORTS WEAR" name="logout" class="btn-grad3 text-light"></a>
           </h1>
         </div>
         <div class="col-6-lg md-6-md col-sm-6">
-          <img src="bg.sport10.gif" alt="" width="100%">
+          <img src="img/jersey.jpg" alt="" width="100%">
         </div>
        
           <!-- <h1 class="Sportwear p-5"><b>Sportswear that </b><br> will
