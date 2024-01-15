@@ -102,7 +102,7 @@ if (!isset($_SESSION["user"])) {
         <div class="col-6-lg md-6-md col-sm-6">
           <h1 class="Sportwear p-5"><b>Sportswear that </b><br> will
              unleash your <br>inner beast <br>
-             <a href="#sports"><input type="submit" value="SPORTS WEAR" name="logout" class="btn-grad3 text-light"></a>
+            <button></button>
           </h1>
         </div>
         <div class="col-6-lg md-6-md col-sm-6">
